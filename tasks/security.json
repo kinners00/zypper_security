@@ -1,0 +1,10 @@
+{
+  "description": "Update security packages via Yum",
+  "input_method": "environment",
+  "parameters": {
+    "security": {
+      "description": "Minimal or full/regular security update",
+      "type": "Enum[minimal, full]"
+    }
+  }
+}
