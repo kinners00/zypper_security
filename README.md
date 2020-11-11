@@ -33,10 +33,14 @@ If there's more that they should know about, though, this is the place to mentio
 * Dependencies that your module automatically installs.
 * Warnings or other important notices.
 
-### Setup Requirements **OPTIONAL**
+## Installing:
 
-mod 'nessus_agent_tasks',
-    :git => 'https://github.com/kinners00/nessus_agent_tasks'
+Add info below to your Puppetfile:
+
+```puppet
+mod 'zypper_security',
+    :git => 'https://github.com/kinners00/zypper_security'
+```
 
 If your module requires anything extra before setting up (pluginsync enabled, another module, etc.), mention it here.
 
